@@ -1,0 +1,27 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.exam_index{
+    height: 100vh;
+    width: 100%;
+    background-image: url("http://www.anawalls.com/images/city/street-city-night-tree-hdr.jpg");
+    background-repeat : no-repeat;
+    background-size: 100%;
+    overflow: scroll;
+    padding-top: 100px;
+       &_1{
+        width: 800px;
+        height: 76px;
+        margin: auto;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: arial black;
+        background-color: rgba(190,237,232,0.8);
+        border: solid #fff;
+        margin-bottom: 10px;
+        }
+        &_1:hover{
+          background-color: rgba(190,237,232,1.5);
+          }
+        }
