@@ -1,0 +1,36 @@
+@import "./colors";
+
+body {
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", ".HiraKakuInterface-W1";
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.0rem;
+}
+
+header.header {
+  background-color: #90ee90;
+      width: 100%;
+      height: 70px;
+      position: fixed;
+    }
+.main_title {
+        font-size: 50px;
+        text-align: center;
+      }
+
+footer {
+  background-color: #90ee90;
+      width: 100%;
+      height: 20px;
+
+}
